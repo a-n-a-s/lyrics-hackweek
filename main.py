@@ -13,7 +13,7 @@ st.title("🎤 Taylor Swift Lyrics Explorer")
 st.write("Enter a Taylor Swift song title to view the lyrics and generate a word cloud!")
 
 #genius client
-genius = lyricsgenius.Genius('XHq5Urn8M5o9syZuT3R7Hm-ypJCNUrqVC0VJTwXXoGsfXks3aYxEd2XZGZKGArdU')
+genius = lyricsgenius.Genius('VamhiHdttMd-ROUSIBRXKIVLVYn_rOOTio4-zwfxCgs-AY5HfrPhxVarfssMdEYz6MvhExmUPd6m5VLyQAtjnQ')
 genius.verbose = False  
 genius.remove_section_headers = True 
 
